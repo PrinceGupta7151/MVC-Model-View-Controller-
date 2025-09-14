@@ -1,2 +1,54 @@
-# MVC-Model-View-Controller-
- CRUD operations  in MVC
+
+# 📌 MVC (Model–View–Controller) Architecture
+
+- MVC is an architectural design pattern that separates an application into three parts:
+
+- Model – Data and Business Logic
+
+- View – User Interface (UI)
+
+- Controller – Request Handler (middle layer between Model and View)
+
+
+
+#  1. Model
+
+👉 The Model represents the data and business logic of the application.
+
+- Manages database operations (CRUD: Create, Read, Update, Delete)
+- Handles data validation
+- Contains business rules (e.g., discounts, authentication, etc.)
+
+# 2. View
+
+👉 The View is what the user sees (UI layer).
+
+- Responsible only for presenting data.
+
+- Can be built with HTML, CSS, JavaScript, React, Angular, EJS, Handlebars, etc.
+
+# 3. Controller
+
+👉 The Controller handles user requests.
+
+- Processes the request (GET, POST, PUT, DELETE).
+
+- Interacts with the Model to get or update data.
+
+- Passes the data to the View for rendering.
+
+
+
+# 4. Flow of MVC
+
+1. User sends a request (Browser → Controller).
+
+2. Controller processes the request and interacts with the Model.
+
+3. Model fetches or updates data from the database.
+
+4. Controller sends the data to the View.
+
+5. View renders the UI with data.
+
+6. User sees the response
